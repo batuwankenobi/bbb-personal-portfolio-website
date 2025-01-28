@@ -14,51 +14,50 @@ const languagesData = {
 		  heroFooter2: "Invite me to join your team -> ",
 		  heroFooterMail: "batuhanbartuu@gmail.com",
 	    },
-
 	    skills: {
-            h1: "Skills",
-            images: [
-                {
-                    Alt: "JAVASCRIPT",
-                    SRC: "/assets/images/javascript.png",
-                },
-                {
-                    Alt: "REACT",
-                    SRC: "/assets/images/react.png",
-                },
-                {
-                    Alt: "REDUX",
-                    SRC: "/assets/images/redux.png",
-                },
-                {
-                    Alt: "NODE",
-                    SRC: "/assets/images/node.png",
-                },
-                {
-                    Alt: "VS CODE",
-                    SRC: "/assets/images/vscode.png",
-                },
-                {
-                    Alt: "FIGMA",
-                    SRC: "/assets/images/figma.png",
-                }
-            ]
-        }
-        ,
-profile: {
-            profileText: "Profile",
-            cart: {
-                h1: "Basic Information",
-                dateOfBirthText: "Date of Birth",
-                dateOfBirth: "05.05.1999",
-                cityText: "City of residence",
-                city: "Istanbul",
-                educationText: "Educational background",
-                education: "Marmara Üniversitesi, Biyomühendislik",
-                rolText: "Preferred Role",
-                rol: "Frontend, UI"
-            },
-		about: {
+		  h1: "Skills",
+		  images: [
+			{
+			    Alt: "JAVASCRIPT",
+			    SRC: "/assets/images/javascript.png",
+			},
+			{
+			    Alt: "REACT",
+			    SRC: "/assets/images/react.png",
+			},
+			{
+			    Alt: "REDUX",
+			    SRC: "/assets/images/redux.png",
+			},
+			{
+			    Alt: "NODE",
+			    SRC: "/assets/images/node.png",
+			},
+			{
+			    Alt: "VS CODE",
+			    SRC: "/assets/images/vscode.png",
+			},
+			{
+			    Alt: "FIGMA",
+			    SRC: "/assets/images/figma.png",
+			}
+		  ]
+	    }
+	    ,
+	    profile: {
+		  profileText: "Profile",
+		  cart: {
+			h1: "Basic Information",
+			dateOfBirthText: "Date of Birth",
+			dateOfBirth: "05.05.1999",
+			cityText: "City of residence",
+			city: "Istanbul",
+			educationText: "Educational background",
+			education: "Marmara Üniversitesi, Biyomühendislik",
+			rolText: "Preferred Role",
+			rol: "Frontend, UI"
+		  },
+		  about: {
 			aboutMe: "About me",
 			text1: "I am a graduate of Marmara University, Department of Bioengineering, where I developed a strong foundation in scientific and technical problem solving. With a deep passion for technology and innovation, I decided to shift my focus to software development. Currently, I am specializing in front-end technologies such as HTML, CSS, JavaScript, React, and Tailwind CSS through the Full Stack Development program at Workintech. This transition enables me to combine my analytical skills with creativity, allowing me to build user-friendly interfaces and enhance the overall user experience. My goal is to continue expanding my knowledge and specialize in full-stack development by integrating both front-end and back-end technologies to create comprehensive, efficient solutions.",
 			text2: "I have a strong passion for exploring new concepts and technologies, with a continuous focus on self-improvement throughout the process. Leveraging my quick learning ability, I enhance my knowledge and skills through in-depth research within my field. My curiosity and commitment drive me to actively seek learning opportunities and stay informed on the latest advancements in my area of expertise."
@@ -169,3 +168,45 @@ profile: {
 		  }
 	    },
   
+	    projects: {
+		  h1: "Projects",
+		  myProjects: [
+			{
+			    id:"witflix",
+			    h1: "WitFlix",
+			    text: "Netflix'in temel özelliklerini kopyalayan, kullanıcıların film ve TV dizilerini aramasını kolaylaştıran bir web uygulaması. Bu proje, web geliştirme uzmanlığımı geliştirmek için kişisel bir girişim olarak geliştirildi.",
+			    materials: [ "vercel", "html","css"],
+			    viewText: "Github' ta göster",
+			    viewLink: "https://github.com/batuwankenobi",
+			    appText: "Uygulamaya git ->",
+			    appLink: "https://witflix-master.vercel.app/",
+			    imgLink: "assets/images/witflix_clone.png",
+			},
+			 
+			{
+			    id:"pizzareact",
+			    h1: "Pizza Challenge React",
+			    text: "React bileşenleriyle oluşturulmuş bir pizza sipariş sitesi, kullanıcıların ana sayfada gezinmesine, pizza sipariş sayfasına geçmesine ve hamur, boyut ve ek malzemeleri seçerek pizzalarını özelleştirmesine olanak tanır. Kullanıcılar ayrıca özel bir sipariş notu ekleyebilir. Siparişin fiyatı, seçilen malzemelere ve pizzaların miktarına göre ayarlanır. Sipariş verildikten sonra, 'https://reqres.in/api/pizza' API'sine bir istek gönderilir ve sipariş ayrıntılarıyla bir onay sayfası görüntülenir.",
+			    materials: ["vercel", "react","router","axios","state management"],
+			    viewText: "Github' ta göster",
+			    viewLink: "https://github.com/batuwankenobi/pizza-order-react-project",
+			    appText: "Uygulamaya git ->",
+			    appLink: "https://pizza-time-to.vercel.app/",
+			    imgLink: "assets/images/reactPizza.png",
+			},
+		  ],
+	    },
+	    footer: {
+		  h1: "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+		  githubText: "Github",
+		  githubLink: "https://github.com/batuwankenobi",
+		  personelBlogText: "Personel Blog",
+		  personelBlogLink: "",
+		  linkedInText: "Linkedin",
+		  linkedInLink: "https://www.linkedin.com/in/batuhan-bartu-bebek/",
+		  emailText: "Email",
+		  emailLink: "batuhanbartuu@gmail.com",
+	    }
+	}
+  }
+  export default languagesData;
