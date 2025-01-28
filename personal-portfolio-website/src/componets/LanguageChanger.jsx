@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react';
+
 function LanguageChanger() {
 	const { language, setLanguage, translate } = useLanguage();
 	const changeLanguage = translate("changeLanguage");
