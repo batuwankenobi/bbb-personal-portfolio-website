@@ -47,3 +47,17 @@ export const LanguageProvider = ({ children }) => {
   if (loading) {
     return <h1 className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</h1>;
   }
+  const translate = (key) => translations[key] || key;
+
+  return (
+    <LanguageContext.Provider value={{ language, setLanguage, translate }}>
+      {children}
+    </LanguageContext.Provider>
+  );
+};
+
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  return context;
+};
+
