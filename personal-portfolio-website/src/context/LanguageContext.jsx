@@ -28,3 +28,22 @@ export const LanguageProvider = ({ children }) => {
             toast.success("Language changed.")
           }
         }      
+      } catch (error) {
+        console.error('Error fetching translations:', error);
+        toast.error(error)
+      } finally {
+        setLoading(false);
+        if(language==="tr"){
+          toast.success("Sayfa yüklendi!")
+        }
+        else{
+          toast.success("Page loaded!")
+        }
+      }
+    };
+    fetchTranslations();
+  }, [language]);
+  
+  if (loading) {
+    return <h1 className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</h1>;
+  }
