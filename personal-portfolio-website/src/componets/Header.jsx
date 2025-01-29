@@ -3,3 +3,4 @@ function Header() {
 	const hero = translate("hero");
 	return (
 		<>
+		
