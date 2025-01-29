@@ -26,3 +26,24 @@ function Header() {
                             </div>
                           
                         </div>
+				 <div className="flex flex-row mt-10">
+                            <a href={hero.linkedInLink} > <img src={hero.linkedInSVG} className="dark:stroke-[#2A262B] dark:fill-[#2A262B] mr-5"></img></a>
+                            <a href={hero.githubLink}>  <img src={hero.githubSVG} className="dark:stroke-[#2A262B] dark:fill-[#2A262B]"></img></a>
+
+                        </div>
+                        <p className="mt-5 ">{hero.heroFooter}</p>
+                        <p>{hero.heroFooter2}<a className="text-[#E92577]" href={`mailto:${hero.heroFooterMail}`} >{hero.heroFooterMail}</a></p>
+                    </div>
+                </div>
+                <div className="w-32 h-16  bg-[#EA2678] rounded-l-full place-self-end"></div>
+
+                <div className="w-32 h-32 border-[16px] border-solid border-[#D9D9D9] rounded-full place-self-end mr-[25vw] -mb-16"></div>
+            </header>
+
+
+
+        </>
+    )
+}
+
+export default Header
