@@ -1,17 +1,18 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
+import languagesData from '../data';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const LanguageContext = createContext();
+
 export const LanguageProvider = ({ children }) => {
-	var lang = navigator.language || navigator.userLanguage;
+  var lang = navigator.language || navigator.userLanguage;
   if(lang.includes("tr")){
     lang="en"
   }
   else{
     lang="tr"
   }
-
   const [language, setLanguage] = useState(lang);
   const [translations,setTranslations]=useState({...languagesData});
   const [loading, setLoading] = useState(true);
@@ -27,7 +28,7 @@ export const LanguageProvider = ({ children }) => {
           }else{
             toast.success("Language changed.")
           }
-        }      
+        }       
       } catch (error) {
         console.error('Error fetching translations:', error);
         toast.error(error)
@@ -47,6 +48,8 @@ export const LanguageProvider = ({ children }) => {
   if (loading) {
     return <h1 className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</h1>;
   }
+  
+
   const translate = (key) => translations[key] || key;
 
   return (
