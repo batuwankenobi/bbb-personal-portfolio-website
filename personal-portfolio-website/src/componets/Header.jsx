@@ -12,4 +12,17 @@ function Header() {
                         <p className='font-semibold mx-2 self-center '>| </p>
                         <LanguageChanger />
                     </div>
-			  
+			  <div className="flex flex-col flex-wrap ">
+                        <div className="flex flex-row-reverse flex-wrap lg:flex-nowrap justify-between lg:justify-self-start">
+                           
+                        <div className="bg-[#E92577] pt-4 pl-4 rounded-2xl max-w-64 min-w-56 min-h-44 max-h-64 flex m-10  ">
+                                <img src={hero.profileImg} className="rounded-2xl ms-1 -mb-2"></img>
+                            </div>
+                            
+                            <div className="w-45">
+                                <h1 className="font-normal text-3xl leading-9 tracking-wide">{hero.greeting}</h1>
+                                <div className="border-b-[24px] -ml-4 rounded-lg border-solid w-48 mt-16 border-[#E92577]"></div>
+                                <p className="text-5xl -mt-16 font-medium leading-snug tracking-normal  ">{hero.profileName}{hero.intro}</p>
+                            </div>
+                          
+                        </div>
