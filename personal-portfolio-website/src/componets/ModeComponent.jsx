@@ -7,3 +7,13 @@ function ModeComponent() {
     
 	// Sayfa yüklendiğinde temayı localStorage'dan almak için useEffect kullanımı
 	useEffect(() => {
+		const theme = JSON.parse(localStorage.getItem("theme")); // LocalStorage'dan tema bilgisini al
+		if (theme !== null) { 
+			// Eğer tema bilgisi localStorage'da varsa, onu uygula
+			if (theme) {
+			  document.body.classList.add("dark");
+			  setDark(true);
+			} else {
+			  document.body.classList.remove("dark");
+			  setDark(false);
+			}
