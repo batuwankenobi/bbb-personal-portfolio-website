@@ -21,3 +21,15 @@ function Profile() {
 			<h1 className="my-10 font-medium text-5xl leading-tight tracking-normal">
                         {profile.profileText}
                     </h1>
+			  {/* İçerik kutularını içeren alan */}
+                    <div className="justify-center content-center text-center flex flex-row flex-wrap">
+
+                        {/* Bilgilerin gösterildiği ana kart */}
+                        <div className="bg-[#52525280] md:w-[26rem] rounded-2xl h-[19rem] w-[20rem]">
+                            {/* Kart içeriği (Beyaz arka planlı kutu) */}
+                            <div className="bg-[#FFFFFF] dark:bg-[#525252] md:w-[26rem] w-[20rem] h-72 flex flex-col rounded-2xl -ml-3">
+                                
+                                {/* Kart başlığı */}
+                                <h1 className="self-start ml-5 my-3 font-normal text-2xl text-[#EA2678] leading-8 font-playfair">
+                                    {profile.cart.h1}
+                                </h1>
