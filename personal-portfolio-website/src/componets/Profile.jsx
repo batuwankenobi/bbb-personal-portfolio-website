@@ -47,3 +47,24 @@ function Profile() {
                             {profile.cart.dateOfBirth} {/* Doğum tarihi bilgisi */}
                         </div>
                     </div>
+{/* Eğitim bilgisi */}
+<div className="flex flex-row my-5 h-14">
+                        <div className="font-semibold text-wrap w-40">
+                            {profile.cart.educationText} {/* Eğitim başlığı */}
+                        </div>
+                        <div className="text-wrap w-28 md:w-48 md:ml-5">
+                            {profile.cart.education} {/* Eğitim bilgisi */}
+                        </div>
+                    </div>
+
+                    {/* Rol bilgisi */}
+                    <div className="flex flex-row my-2">
+                        <div className="font-semibold w-40">
+                            {profile.cart.rolText} {/* Rol başlığı */}
+                        </div>
+                        <div className="md:ml-5">
+                            {profile.cart.rol} {/* Kullanıcının rol bilgisi */}
+                        </div>
+                    </div>
+                </div>
+            </div>
