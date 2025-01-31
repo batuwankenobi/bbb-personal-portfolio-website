@@ -68,3 +68,18 @@ function Profile() {
                     </div>
                 </div>
             </div>
+             {/* Hakkında bölümü */}
+             <div className="w-[30rem] ml-6 mt-16 text-left">
+                {/* Alt çizgi süsü */}
+                <div className="border-b-[15px] -ml-1 rounded-md border-solid w-24 -mb-11 border-[#82BBFF] dark:border-[#82BBFF]"></div>
+                
+                {/* Kullanıcının hakkında başlığı ve bilgisi */}
+                <h1 className="m-2 text-2xl font-normal font-playfair">{profile.about.aboutMe}</h1>
+                <p className="m-2">{profile.about.text1}</p> {/* Hakkında metni - 1 */}
+                <p className="m-2">{profile.about.text2}</p> {/* Hakkında metni - 2 */}
+            </div>
+        </>
+    );
+}
+
+export default Profile;
