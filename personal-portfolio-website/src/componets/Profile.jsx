@@ -15,3 +15,9 @@ function Profile() {
                 
                 {/* Dekoratif sol çizgi (pembe renkli) */}
                 <div className="w-20 h-32 border-l-16 border-t-16 border-b-16 border-solid border-[#EA2678] rounded-l-full place-self-end -mt-36"></div>
+		    {/* İçerik alanı */}
+                <div className="px-[18vw]"></div>
+		      {/* Profil başlığı */}
+			<h1 className="my-10 font-medium text-5xl leading-tight tracking-normal">
+                        {profile.profileText}
+                    </h1>
