@@ -33,3 +33,17 @@ function Profile() {
                                 <h1 className="self-start ml-5 my-3 font-normal text-2xl text-[#EA2678] leading-8 font-playfair">
                                     {profile.cart.h1}
                                 </h1>
+{/* Kullanıcı bilgilerini içeren ana div */}
+<div className="flex flex-row text-wrap text-left ml-5 ">
+                {/* Kullanıcı bilgilerini içeren alt div */}
+                <div className="flex flex-col text-lg leading-5 tracking-tight flex-wrap">
+
+                    {/* Doğum tarihi bilgisi */}
+                    <div className="flex flex-row my-2">
+                        <div className="font-semibold w-40">
+                            {profile.cart.dateOfBirthText} {/* Doğum tarihi başlığı */}
+                        </div>
+                        <div className="md:ml-5">
+                            {profile.cart.dateOfBirth} {/* Doğum tarihi bilgisi */}
+                        </div>
+                    </div>
