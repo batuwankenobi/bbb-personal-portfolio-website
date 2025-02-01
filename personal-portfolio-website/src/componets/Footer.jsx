@@ -17,4 +17,14 @@ function Footer() {
 			    {/* Başlık metni */}
 			    <h1 className="text-right mr-10 font-medium text-3xl tracking-normal">{footer.h1}</h1>
 			</div>
-			
+			  
+                    {/* Bağlantılar bölümü */}
+                    <div className="flex flex-col text-left content-center font-medium text-nowrap">
+                        {/* GitHub linki */}
+                        <a href={footer.githubLink} className="text-[#82BBFF]">{footer.githubText}</a>
+                        {/* Kişisel blog linki */}
+                        <a href={footer.personelBlogLink} className="text-[#0A0A14] dark:text-[#FFFFFF]">{footer.personelBlogText}</a>
+                        {/* LinkedIn linki */}
+                        <a href={footer.linkedInLink} className="text-[#419CCB]">{footer.linkedInText}</a>
+                        {/* E-posta linki */}
+                        <a href={footer.emailLink} className="text-[#EA2678]">{footer.emailText}</a>
