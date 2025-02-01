@@ -12,6 +12,23 @@ function Skills() {
     // skills nesnesinden images dizisini alıyoruz.
     const images = skills.images;
 	return (
-
+		<>
+            {/* Ana bölüm: Beceriler kısmını temsil eden section */}
+            <section className="pb-24 min-h-80 content-center bg-[#FFFFFF] text-center dark:bg-[#484148] dark:text-[#F4F4F4]">
+                {/* Dekoratif yuvarlak şekil: Belirli bir konumda yer alan bir border'a sahip daire */}
+                <div className="w-32 h-32 border-[16px] border-solid border-[#D9D9D9] rounded-full place-self-end mr-[25vw] -mt-16"></div>
+                
+                {/* İçerik kapsayıcısı: Padding ile içerik merkezleniyor */}
+                <div className="px-[18vw]">
+                    {/* Başlık: skills nesnesinden gelen h1 değeri */}
+                    <h1 className="my-10 font-medium text-5xl leading-tight tracking-normal">{skills.h1}</h1>
+                    
+                    {/* Resimlerin bulunduğu container: Flexbox kullanılarak resimler eşit aralıklı ve sarmalanabilir şekilde yerleştiriliyor */}
+                    <div className="flex flex-row justify-evenly flex-wrap">
+			  {
+                            // images dizisini map fonksiyonu ile dönüyoruz.
+                            // Her image için bir <div> oluşturuluyor.
+                            images.map((image, index) => {
+                                return (
 	);
 }
