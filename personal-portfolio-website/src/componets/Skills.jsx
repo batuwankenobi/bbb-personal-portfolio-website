@@ -30,5 +30,12 @@ function Skills() {
                             // Her image için bir <div> oluşturuluyor.
                             images.map((image, index) => {
                                 return (
+						/ Her image ve açıklaması için ayrı bir container.
+                                    // "key" prop'u React için liste elemanlarının benzersizliğini sağlamak amacıyla kullanılır.
+                                    <div className="flex flex-col size-24 ml-[4vw] mt-10" key={index}>
+                                        {/* Resim elemanı: image nesnesinden SRC ve Alt değerleri kullanılarak oluşturuluyor */}
+                                        <img src={image.SRC} alt={image.Alt} />
+                                        {/* Resme ait açıklama metni */}
+                                        <p className="font-medium text-base m-1 leading-9 opacity-65 dark:text-[#D9D9D9] text-[#777777]">
 	);
 }
