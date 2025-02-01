@@ -36,6 +36,22 @@ function Skills() {
                                         {/* Resim elemanı: image nesnesinden SRC ve Alt değerleri kullanılarak oluşturuluyor */}
                                         <img src={image.SRC} alt={image.Alt} />
                                         {/* Resme ait açıklama metni */}
-                                        <p className="font-medium text-base m-1 leading-9 opacity-65 dark:text-[#D9D9D9] text-[#777777]">
-	);
+                                        <p className="font-medium text-base m-1 leading-9 opacity-65 dark:text-[#D9D9D9] text-[#777777]">		
+						    {image.Alt}
+                                        </p>
+                                    </div>
+                                );
+                            })
+                        }
+                    </div>
+                </div>
+                
+                {/* Sağ alt kısımda yer alan bir diğer dekoratif element */}
+                <div className="w-20 h-12 bg-[#525252] rounded-r-full place-self-start"></div>
+            </section>
+        </>
+    );
 }
+
+// Skills bileşenini dışa aktarıyoruz.
+export default Skills;
