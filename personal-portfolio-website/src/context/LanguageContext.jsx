@@ -1,7 +1,6 @@
-import { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useContext, useEffect } from 'react';
 import languagesData from '../data';
 import axios from 'axios';
-import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
 
 const LanguageContext = createContext();
@@ -44,7 +43,7 @@ export const LanguageProvider = ({ children }) => {
       }
     };
     fetchTranslations();
-  }, [language, loading]);
+  }, [language]);
   
   if (loading) {
     return <h1 className='text-sky-800 font-semibold flex  text-center justify-self-center place-self-center'>LOADİNG.....</h1>;
@@ -59,7 +58,9 @@ export const LanguageProvider = ({ children }) => {
     </LanguageContext.Provider>
   );
 };
-LanguageProvider.propTypes = {
-  children: PropTypes.node.isRequired,
+
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  return context;
 };
 
