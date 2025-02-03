@@ -94,13 +94,13 @@ const languagesData = {
 	    footer: {
 		  h1: "Let's work together on your next product.",
 		  githubText: "Github",
-		  githubLink: "",
+		  githubLink: "https://github.com/batuwankenobi",
 		  personelBlogText: "Personel Blog",
 		  personelBlogLink: "",
 		  linkedInText: "Linkedin",
-		  linkedInLink: "",
+		  linkedInLink: "https://www.linkedin.com/in/batuhan-bartu-bebek/",
 		  emailText: "Email",
-		  emailLink: "",
+		  emailLink: "batuhanbartuu@gmail.com",
 	    }
 	},
 	tr: {
