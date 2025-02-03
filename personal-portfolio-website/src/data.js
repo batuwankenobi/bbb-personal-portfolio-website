@@ -22,6 +22,14 @@ const languagesData = {
 			    SRC: "/assets/images/javascript.png",
 			},
 			{
+			    Alt: "HTML",
+			    SRC: "/assets/images/html.png",
+			},{
+				Alt: "CSS",
+				SRC: "/assets/images/css.png",
+			  },
+			
+			{
 			    Alt: "REACT",
 			    SRC: "/assets/images/react.png",
 			},
@@ -40,6 +48,10 @@ const languagesData = {
 			{
 			    Alt: "FIGMA",
 			    SRC: "/assets/images/figma.png",
+			},
+			{
+			    Alt: "TAILWIND",
+			    SRC: "/assets/images/tailwindcss.png",
 			}
 		  ]
 	    }
@@ -92,7 +104,7 @@ const languagesData = {
 				id:"movieselector",
 				h1: "Favourite Movies",
 				text: "A React-based favorite movie management app deployed on Vercel, allowing users to add, remove, and manage their favorite films. The app utilizes useReducer for global state management, with useDispatch and useSelector enabling efficient state updates and access. Users can interact with a dynamic movie list, where selections are updated in real-time. The application ensures a seamless experience by maintaining state persistence, and all interactions are handled efficiently within the React component tree.",
-				materials: ["vercel", "react","useDispatch","useSelector","useReducer"],
+				materials: ["vercel","useDispatch","useSelector","useReducer","react"],
 				viewText: "View on Github",
 				viewLink: "https://github.com/batuwankenobi/movie-selector",
 				appText: "Go to app ->",
@@ -102,23 +114,13 @@ const languagesData = {
 				id:"reduxcalculator",
 				h1: "Simple Calculator",
 				text: "A Redux-powered calculator application built with React, enabling users to perform arithmetic operations with a structured state management approach. The app utilizes Redux actions such as ADD_ONE, APPLY_NUMBER, and CHANGE_OPERATION to handle calculations efficiently, while useReducer, useDispatch, and useSelector ensure seamless state updates. It features CalcButton components for user interaction and a TotalDisplay component to showcase results dynamically. Designed with a clean and modular architecture, the project is optimized for performance and is deployable on Vercel for easy accessibility.",
-				materials: ["vercel", "react","router","axios","state management"],
+				materials: ["vercel", "react","reducer","state management"],
 				viewText: "View on Github",
 				viewLink: "https://github.com/batuwankenobi/redux-calculator",
 				appText: "Go to app ->",
 				appLink: "https://redux-calculator-5bme-4nhbi93ko-batuwankenobis-projects.vercel.app/",
 				imgLink: "assets/images/calculator.png",
-			  },{
-				id:"reduxcalculator",
-				h1: "Simple Calculator",
-				text: "A Redux-powered calculator application built with React, enabling users to perform arithmetic operations with a structured state management approach. The app utilizes Redux actions such as ADD_ONE, APPLY_NUMBER, and CHANGE_OPERATION to handle calculations efficiently, while useReducer, useDispatch, and useSelector ensure seamless state updates. It features CalcButton components for user interaction and a TotalDisplay component to showcase results dynamically. Designed with a clean and modular architecture, the project is optimized for performance and is deployable on Vercel for easy accessibility.",
-				materials: ["vercel", "react","router","axios","state management"],
-				viewText: "View on Github",
-				viewLink: "https://github.com/batuwankenobi/redux-calculator",
-				appText: "Go to app ->",
-				appLink: "https://redux-calculator-5bme-4nhbi93ko-batuwankenobis-projects.vercel.app/",
-				imgLink: "assets/images/calculator.png",
-			  },
+			  }
 		  ],
 	    },
 	    footer: {
@@ -156,6 +158,14 @@ const languagesData = {
 			    SRC: "/assets/images/javascript.png",
 			},
 			{
+			    Alt: "HTML",
+			    SRC: "/assets/images/html.png",
+			},{
+				Alt: "CSS",
+				SRC: "/assets/images/css.png",
+			  },
+			
+			{
 			    Alt: "REACT",
 			    SRC: "/assets/images/react.png",
 			},
@@ -174,6 +184,10 @@ const languagesData = {
 			{
 			    Alt: "FIGMA",
 			    SRC: "/assets/images/figma.png",
+			},
+			{
+			    Alt: "TAILWIND",
+			    SRC: "/assets/images/tailwindcss.png",
 			}
 		  ]
 	    }
@@ -223,7 +237,27 @@ const languagesData = {
 			    appText: "Uygulamaya git ->",
 			    appLink: "https://pizza-time-to.vercel.app/",
 			    imgLink: "assets/images/reactPizza.png",
-			},
+			},{
+				id:"movieselector",
+				h1: "Favori Filmlerim",
+				text: "React tabanlı bu favori film yönetim uygulaması, kullanıcıların favori filmlerini kolayca ekleyip kaldırmasını ve yönetmesini sağlar. Global state yönetimi için useReducer, durum güncellemeleri ve erişimi için useDispatch ve useSelector kullanılarak verimli bir yapı oluşturulmuştur. Kullanıcılar, gerçek zamanlı olarak güncellenen dinamik bir film listesiyle etkileşime girebilir. State kalıcılığı sayesinde kullanıcı deneyimi kesintisiz hale getirilirken, tüm işlemler React bileşen ağacı içinde verimli bir şekilde yönetilir.",
+				materials: ["vercel","useDispatch","useSelector","useReducer","react"],
+				viewText: "Github' ta göster",
+				viewLink: "https://github.com/batuwankenobi/movie-selector",
+				appText: "Uygulamaya Git ->",
+				appLink: "https://movie-selector-chi.vercel.app/",
+				imgLink: "assets/images/movie_selector.png",
+			  },	{
+				id:"reduxcalculator",
+				h1: "Hesap Makinesi",
+				text: "Redux ile güçlendirilmiş bu hesap makinesi uygulaması, React kullanılarak geliştirilmiş olup, kullanıcıların dört işlem hesaplamaları yapmasını sağlar. Durum yönetimi için Redux kullanılarak, ADD_ONE, APPLY_NUMBER ve CHANGE_OPERATION gibi Redux eylemleri ile hesaplamalar verimli bir şekilde gerçekleştirilir. useReducer, useDispatch ve useSelector kullanılarak state yönetimi optimize edilir. Kullanıcılar, CalcButton bileşenleri aracılığıyla işlemleri gerçekleştirebilir ve TotalDisplay bileşeni ile sonuçları dinamik olarak görüntüleyebilir. Modüler ve temiz bir mimariye sahip olan proje, performans için optimize edilmiştir.",
+				materials: ["vercel", "react","reducer","state management"],
+				viewText: "Github' ta göster",
+				viewLink: "https://github.com/batuwankenobi/redux-calculator",
+				appText: "Uygulamaya Git ->",
+				appLink: "https://redux-calculator-5bme-4nhbi93ko-batuwankenobis-projects.vercel.app/",
+				imgLink: "assets/images/calculator.png",
+			  }
 		  ],
 	    },
 	    footer: {
