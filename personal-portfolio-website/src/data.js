@@ -3,7 +3,7 @@ const languagesData = {
 	    changeLanguage: "TÜRKÇE",
 	    hero: {
 		  greeting: "Hi! 👋",
-		  intro: " I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet!",
+		  intro: " I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet! You can click on my picture for my CV!",
 		  profileImg: "/assets/images/profile_picture.jpg",
 		  profileName: "I'm Batuhan.",
 		  linkedInSVG: "/assets/images/linkedIn.SVG",
@@ -139,7 +139,7 @@ const languagesData = {
 	    changeLanguage: "ENGLISH",
 	    hero: {
 		  greeting: "Merhaba! 👋",
-		  intro: " Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
+		  intro: " Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım! CV için resme tıklayabilirsiniz!",
 		  profileImg: "/assets/images/profile_picture.jpg",
 		  profileName: "Ben Batuhan.",
 		  linkedInSVG: "/assets/images/linkedIn.SVG",

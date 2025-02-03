@@ -41,7 +41,7 @@ function Header() {
 
                             <div className="bg-[#E92577] pt-4 pl-4 rounded-2xl max-w-64 min-w-56 min-h-44 max-h-64 flex m-10">
                             {/* Profil resmi için kırmızı arka planlı bir kutu. */}
-                            <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://drive.google.com/file/d/15Rh6WwHDfxrFNv0vDYdSp5FpteQjK1U9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <img src={hero.profileImg} className="rounded-2xl ms-1 -mb-11"></img>
                                 </a>
                                 {/* Profil resmi, köşeleri yuvarlatılmış olarak ekleniyor. */}
