@@ -81,7 +81,7 @@ const languagesData = {
 			{
 			    id:"pizzareact",
 			    h1: "Pizza Challenge React",
-			    text: "A pizza ordering website built with React components, allowing users to navigate the homepage, proceed to the pizza ordering page, and customize their pizza by selecting the dough, size, and additional toppings. Users can also add a custom order note. The price of the order adjusts based on the toppings and quantity of pizzas selected. Upon placing the order, a request is sent to the API 'https://reqres.in/api/pizza', and a confirmation page is displayed with the order details.",
+			    text: "A pizza ordering website built with React allows users to navigate from the homepage to the pizza ordering page. Users can customize their pizza by choosing the type of dough, size, and additional toppings, and add special notes. The price of the order is dynamically updated based on the selected toppings and quantity. Once the order is placed, a request is sent to the API “https://reqres.in/api/pizza” and a confirmation page with the order details is displayed.",
 			    materials: ["vercel", "react","router","axios","state management","responsive design"],
 			    viewText: "View on Github",
 			    viewLink: "https://github.com/batuwankenobi/pizza-time-to",
@@ -97,8 +97,18 @@ const languagesData = {
 				viewLink: "https://github.com/batuwankenobi/movie-selector",
 				appText: "Go to app ->",
 				appLink: "https://movie-selector-chi.vercel.app/",
-				imgLink: "assets/images/reactPizza.png",
+				imgLink: "assets/images/movie_selector.png",
 			  },	{
+				id:"reduxcalculator",
+				h1: "Simple Calculator",
+				text: "A Redux-powered calculator application built with React, enabling users to perform arithmetic operations with a structured state management approach. The app utilizes Redux actions such as ADD_ONE, APPLY_NUMBER, and CHANGE_OPERATION to handle calculations efficiently, while useReducer, useDispatch, and useSelector ensure seamless state updates. It features CalcButton components for user interaction and a TotalDisplay component to showcase results dynamically. Designed with a clean and modular architecture, the project is optimized for performance and is deployable on Vercel for easy accessibility.",
+				materials: ["vercel", "react","router","axios","state management"],
+				viewText: "View on Github",
+				viewLink: "https://github.com/batuwankenobi/redux-calculator",
+				appText: "Go to app ->",
+				appLink: "https://redux-calculator-5bme-4nhbi93ko-batuwankenobis-projects.vercel.app/",
+				imgLink: "assets/images/calculator.png",
+			  },{
 				id:"reduxcalculator",
 				h1: "Simple Calculator",
 				text: "A Redux-powered calculator application built with React, enabling users to perform arithmetic operations with a structured state management approach. The app utilizes Redux actions such as ADD_ONE, APPLY_NUMBER, and CHANGE_OPERATION to handle calculations efficiently, while useReducer, useDispatch, and useSelector ensure seamless state updates. It features CalcButton components for user interaction and a TotalDisplay component to showcase results dynamically. Designed with a clean and modular architecture, the project is optimized for performance and is deployable on Vercel for easy accessibility.",
