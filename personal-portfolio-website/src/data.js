@@ -98,7 +98,7 @@ const languagesData = {
 			    viewText: "View on Github -> ",
 			    viewLink: "https://github.com/batuwankenobi/pizza-time-to",
 			    appText: "Go to app ->",
-			    appLink: "react-pizza-project-eight.vercel.app/",
+			    appLink: "https://pizza-time-to.vercel.app/",
 			    imgLink: "assets/images/reactPizza.png",
 			},	{
 				id:"movieselector",
